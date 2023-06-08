@@ -1,0 +1,117 @@
+body {
+    background-image:url(/img/schoolwallpaper.png) ;
+    background-repeat: repeat;
+    margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	background-position: center;
+    background-color: aqua;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header {
+    background-color: rgb(0,128, 0);
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: large;
+    height: 90px;
+    border-bottom: 2px solid black;
+}
+
+.info {
+    background-color: rgb(152,251,152);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-block-end: 40px;
+    height: 20%;
+    width: 30%;
+}
+
+.p {
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: green;
+}
+
+p{
+    justify-items: center;
+}
+
+.container {
+    background-color: lightblue;
+    display: flex;
+    height: 360px;
+    font-weight: bold;
+    justify-content: space-evenly; 
+    margin: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.livre {
+    margin-top: 10%;
+    margin-left: 20%;
+    display: block;
+    background-color: rgb(21, 145, 21);
+    border-radius: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 120px;
+    height: 70%;
+    font-size: large;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+.ocupado {
+    margin-top: 10%;
+    margin-left: 20%;
+    display: block;
+    background-color: red;
+    border-radius: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 120px;
+    height: 70%;
+    font-size: large;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.manuntencao {
+    margin-top: 10%;
+    margin-left: 20%;
+    display: block;
+    background-color: rgb(255, 215, 0);
+    border-radius: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 120px;
+    height: 70%;
+    font-size: large;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.button {
+    background-color: rgb(14, 14, 62);
+    color: white;
+    padding: 2px 3px;
+    border: 2px solid white;
+    border-radius: 100px;
+    margin-block-start: 5px;
+    text-transform: uppercase;
+}

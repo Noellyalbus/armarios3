@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css"> 
+    <title>Gerenciamento de Armários</title>
+</head>
+<body>
+    <header>
+        <h2>Gerenciamento de Armários do Colégio Luiza De Teodoro</h2>
+        </header>
+        
+        <div class="info">
+            <ul>
+                <li>Livre: verde</li>
+                <li>Ocupado: vermelho</li>
+                <li>Manuntenção: amarelo</li>
+            </ul>
+        </div>
+    
+        <div class="p">Bloco 01 - Ensino Médio</div>
+            <div class="container">
+    
+                <div>
+                <div class="ocupado" id="ar-1">
+                    <p>Armário 1</p>
+                </div>
+                <div>
+                    <button class="button" onclick="livre1()" id="btnlivre1">Livre</button>
+                    <button class="button" onclick="ocupado1()" id="btnocupado1">Ocupado</button>
+                    <button class="button" onclick="manutencao1()" id="btnmanutencao1">manuntencao</button>
+                </div>
+                </div>
+                
+                <div>
+                <div class="livre" id="ar-2">
+                    <p>Armário 2</p>
+                </div>
+                <div>
+                    <button class="button" onclick="livre2()" id="btnlivre2">Livre</button>
+                    <button class="button" onclick="ocupado2()" id="btnocupado2">Ocupado</button>
+                    <button class="button" onclick="manutencao2()" id="btnmanutencao2">manuntencao</button>
+                </div>
+                </div>
+    
+                <div>
+                <div class="ocupado"  id="ar-3">
+                    <p>Armário 3</p>
+                </div>
+                <div>
+                    <button class="button" onclick="livre3()" id="btnlivre3">Livre</button>
+                    <button class="button" onclick="ocupado3()" id="btnocupado3">Ocupado</button>
+                    <button class="button" onclick="manutencao3()" id="btnmanutencao3">manuntenção</button>
+                </div>
+                </div>
+    
+                <div>
+                <div class="ocupado"  id="ar-4">
+                    <p>Armário 4</p>
+                </div>
+                <div>
+                    <button class="button" onclick="livre4()" id="btnlivre4">Livre</button>
+                    <button class="button" onclick="ocupado4()" id="btnocupado4">Ocupado</button>
+                    <button class="button" onclick="manutencao4()" id="btnmanutencao4">manuntencao</button>
+                </div>
+                </div>
+    
+                <div>
+                <div class="manuntencao"  id="ar-5">
+                    <p>Armário 5</p>
+                </div>
+                <div>
+                    <button class="button" onclick="livre5()" id="btnlivre5">Livre</button>
+                    <button class="button" onclick="ocupado5()" id="btnocupado5">Ocupado</button>
+                    <button class="button" onclick="manutencao5()" id="btnmanutencao5">manuntencao</button>
+                </div>
+                </div>
+    
+            </div>    
+    
+        <div class="p">Bloco 02 - Química</div>
+            <div class="container">
+    
+            <div>
+            <div class="manuntencao" id="ar-6">
+                <p>Armário 6</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre6()" id="btnlivre6">Livre</button>
+                <button class="button" onclick="ocupado6()" id="btnocupado6">Ocupado</button>
+                <button class="button" onclick="manutencao6()" id="btnmanutencao6">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="livre" id="ar-7">
+                <p>Armário 7</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre7()" id="btnlivre7">Livre</button>
+                <button class="button" onclick="ocupado7()" id="btnocupado7">Ocupado</button>
+                <button class="button" onclick="manutencao7()" id="btnmanutencao7">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="ocupado" id="ar-8">
+                <p>Armário 8</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre8()" id="btnlivre8">Livre</button>
+                <button class="button" onclick="ocupado8()" id="btnocupado8">Ocupado</button>
+                <button class="button" onclick="manutencao8()" id="btnmanutencao8">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="ocupado" id="ar-9">
+                <p>Armário 9</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre9()" id="btnlivre9">Livre</button>
+                <button class="button" onclick="ocupado9()" id="btnocupado9">Ocupado</button>
+                <button class="button" onclick="manutencao9()" id="btnmanutencao9">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="livre" id="ar-10">
+                <p>Armário 10</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre10()" id="btnlivre10">Livre</button>
+                <button class="button" onclick="ocupado10()" id="btnocupado10">Ocupado</button>
+                <button class="button" onclick="manutencao10()" id="btnmanutencao10">manuntencao</button>
+            </div>
+            </div>
+    
+        </div>
+        
+            
+        <div class="p">Bloco 03 - Industrial</div>
+            <div class="container">
+    
+            <div>
+            <div class="livre"  id="ar-11">
+                <p>Armário 11</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre11()" id="btnlivre11">Livre</button>
+                <button class="button" onclick="ocupado11()" id="btnocupado11">Ocupado</button>
+                <button class="button" onclick="manutencao11()" id="btnmanutencao11">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="manuntencao" id="ar-12">
+                <p>Armário 12</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre12()" id="btnlivre12">Livre</button>
+                <button class="button" onclick="ocupado12()" id="btnocupado12">Ocupado</button>
+                <button class="button" onclick="manutencao12()" id="btnmanutencao12">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="ocupado"  id="ar-13">
+                <p>Armário 13</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre13()" id="btnlivre13">Livre</button>
+                <button class="button" onclick="ocupado13()" id="btnocupado13">Ocupado</button>
+                <button class="button" onclick="manutencao13()" id="btnmanutencao13">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="manuntencao" id="ar-14">
+                <p>Armário 14</p>   
+            </div>
+            <div>
+                <button class="button" onclick="livre14()" id="btnlivre14">Livre</button>
+                <button class="button" onclick="ocupado14()" id="btnocupado14">Ocupado</button>
+                <button class="button" onclick="manutencao14()" id="btnmanutencao14">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="ocupado"  id="ar-15">
+                <p>Armário 15</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre15()" id="btnlivre15">Livre</button>
+                <button class="button" onclick="ocupado15()" id="btnocupado15">Ocupado</button>
+                <button class="button" onclick="manutencao15()" id="btnmanutencao15">manuntencao</button>
+            </div>
+            </div> 
+    
+        </div>
+
+        <div class="p">Bloco 04 - Informática</div>
+            <div class="container">
+    
+            <div>
+            <div class="ocupado"  id="ar-16">
+                <p>Armário 16</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre16()" id="btnlivre16">Livre</button>
+                <button class="button" onclick="ocupado16()" id="btnocupado16">Ocupado</button>
+                <button class="button" onclick="manutencao16()" id="btnmanutencao16">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="manuntencao"  id="ar-17">
+                <p>Armário 17</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre17()" id="btnlivre17">Livre</button>
+                <button class="button" onclick="ocupado17()" id="btnocupado17">Ocupado</button>
+                <button class="button" onclick="manutencao17()" id="btnmanutencao17">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="ocupado"  id="ar-18">
+                <p>Armário 18</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre18()" id="btnlivre18">Livre</button>
+                <button class="button" onclick="ocupado18()" id="btnocupado18">Ocupado</button>
+                <button class="button" onclick="manutencao18()" id="btnmanutencao18">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class="manuntencao"  id="ar-19">
+                <p>Armário 19</p>   
+            </div>
+            <div>
+                <button class="button" onclick="livre19()" id="btnlivre19">Livre</button>
+                <button class="button" onclick="ocupado19()" id="btnocupado19">Ocupado</button>
+                <button class="button" onclick="manutencao19()" id="btnmanutencao19">manuntencao</button>
+            </div>
+            </div>
+    
+            <div>
+            <div class ="ocupado"  id="ar-20">
+                <p>Armário 20</p>
+            </div>
+            <div>
+                <button class="button" onclick="livre20()" id="btnlivre20">Livre</button>
+                <button class="button" onclick="ocupado20()" id="btnocupado20">Ocupado</button>
+                <button class="button" onclick="manutencao20()" id="btnmanutencao20">manuntencao</button>
+            </div>
+            </div> 
+    
+        </div>
+</body>
+
+ <script src="js/script.js"></script>
+</html>
